@@ -1,0 +1,94 @@
+BODY
+{
+    COLOR: #7d7d7d;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px
+	margin-left: 30%;
+}
+P
+{
+    COLOR: #7d7d7d;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+TABLE.Top
+{
+    BORDER-BOTTOM: #000000 1px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid
+}
+TABLE.Middle
+{
+    BORDER-BOTTOM: #000000 1px;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px
+}
+TABLE.Bottom
+{
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px
+}
+.NoBreakBeforeAfter
+{
+    MARGIN-BOTTOM: 0px;
+    MARGIN-TOP: 0px
+}
+TD.Shadow1Back
+{
+    BACKGROUND-IMAGE: url(images/Shadow1Back.gif);
+    BACKGROUND-POSITION: center top;
+    BACKGROUND-REPEAT: repeat-x
+}
+.Indented12L
+{
+    MARGIN-LEFT: 12px
+}
+.DoubleBreakBefore
+{
+    MARGIN-TOP: 8px
+}
+.Indented8L
+{
+    MARGIN-LEFT: 8px
+}
+IMG.Bordered
+{
+    BORDER-BOTTOM: #000000 1px solid;
+    BORDER-LEFT: #000000 1px solid;
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid
+}
+TD.VSeparator1Back
+{
+    BACKGROUND-IMAGE: url(images/VSeparator1Back.gif);
+    BACKGROUND-POSITION: center center;
+    BACKGROUND-REPEAT: repeat-y
+}
+P.Font1
+{
+    COLOR: #ac8062;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 11px
+}
+.Indented8R
+{
+    MARGIN-RIGHT: 8px
+}
+UL.nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL.nav LI {
+	DISPLAY: inline; LIST-STYLE-TYPE: none
+}
+UL.nav LI A {
+	 BORDER-RIGHT: #909090 0.1em solid; PADDING-RIGHT: 0.2em; BORDER-TOP: #fff 0.1em solid; PADDING-LEFT: 0px; BACKGROUND: #f1f1f1; FLOAT: left; PADDING-BOTTOM: 0.2em; FONT: 0.80em Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #fff 0.1em solid; WIDTH: 7.15em; COLOR: #333; PADDING-TOP: 0px; BORDER-BOTTOM: #909090 0.1em solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+UL.nav A:hover {
+	BORDER-LEFT-COLOR: #000; BACKGROUND: #999; BORDER-BOTTOM-COLOR: #fafafa; COLOR: #fff; BORDER-TOP-COLOR: #000; BORDER-RIGHT-COLOR: #fafafa
+}

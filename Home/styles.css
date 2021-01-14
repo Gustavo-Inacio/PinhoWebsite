@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.my-navba-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myMainNavbar{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.my-img {
+    width: 100%;
+}
+
+.btnMore{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+#content{
+    border: 1px solid #b1ac8c;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+#contentRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-content{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.content-text-title{
+    color: #7d7d7d;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.my-iVideo{
+    max-width: 230px;
+}
+
+.content-text{
+    color: #7d7d7d;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.my-horizontal-divider{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: #b1ac8c83;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-vertical-divider{
+    position: relative ;
+    height: 438px;
+    width: 1px;
+    background-color: #b1ac8c83;
+}
+
+.my-product-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.my-products-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: ivory;
+    font-size: 12px;
+    padding: 10px;
+}
+footer a{
+    color: ivory;
+}
+
+
+@media (max-width: 992px){
+    #myMainNavbar{
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+}
+
+
+
+/* --- Media queries --- */
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
